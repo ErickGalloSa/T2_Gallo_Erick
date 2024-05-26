@@ -1,0 +1,92 @@
+﻿
+@{
+    ViewData["Title"] = "DisMundo";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container pt-3">
+    <h1 class="text-primary">Distribuidores del Mundo</h1>
+
+    <div class="distribuidor">
+        <h2>Distribuidora Latinoandina</h2>
+        <div>
+            <img src="@Url.Content("~/img/logo-andino.jpg")" alt="">
+        </div>
+        <p>
+            <strong>Distribuidora Latinoandina</strong> es una empresa especializada 
+            en la importación y distribución de productos peruanos en España y Europa. 
+            Ofrecen una amplia gama de productos secos y congelados, así como ingredientes 
+            para preparar auténticas recetas peruanas. Cuentan con un equipo de profesionales 
+            experimentados que se dedican a brindar un servicio de calidad a sus clientes.
+        </p>
+        <p>
+            <strong>Sitio web:</strong> <a href="https://distribuidoralatinoandina.com/es/">https://distribuidoralatinoandina.com/es/</a>
+        </p>
+        <p>
+            <strong>Teléfono:</strong> +34 91 635 23 80
+        <p>
+            <strong>Dirección:</strong> Sierra Morena, 12, Nave 17, 28042 Madrid, España
+        </p>
+    </div>
+
+    <div class="distribuidor">
+        <h2>Alibaba</h2>
+        <div>
+            <img src="@Url.Content("~/img/logo-alibaba.png")" alt="" width="373" height="133">
+        </div>
+        <p>
+            <strong>Alibaba</strong> es una plataforma de comercio electrónico 
+            líder a nivel mundial que conecta a compradores y vendedores de 
+            todo el mundo. Ofrecen una amplia gama de productos de diversos 
+            sectores, incluyendo electrónica, ropa, muebles, maquinaria y más. 
+            Cuentan con un sistema de pago seguro y un servicio de atención al 
+            cliente multilingüe.
+        </p>
+        <p>
+            <strong>Sitio web:</strong> <a href="https://spanish.alibaba.com">https://spanish.alibaba.com</a>
+        </p>
+        <p>
+            <strong>Teléfono:</strong> +86 571 8505 2200
+        </p>
+        <p>
+            <strong>Dirección:</strong> 998 West Lake Road, Hangzhou, 310005, China
+        </p>
+    </div>
+
+    <div class="distribuidor">
+        <h2>Amazon</h2>
+        <div>
+            <img src="@Url.Content("~/img/logo-amazon.jpg")" alt="" width="373" height="133">
+        </div>
+        <p>
+            <strong>Amazon</strong> es una empresa estadounidense de comercio 
+            electrónico y servicios en la nube que se ubica en Seattle, Washington. 
+            Se considera una de las cuatro grandes empresas tecnológicas de Estados 
+            Unidos, junto con Apple, Google y Microsoft.
+        </p>
+        <p>
+            <strong>Sitio web:</strong> <a href="https://www.amazon.com">https://www.amazon.com</a>
+        </p>
+        <p>
+            <strong>Teléfono:</strong> +1 425 443 2000
+        </p>
+        <p>
+            <strong>Dirección:</strong> 410 Terry Ave N, Seattle, WA 98109, USA
+        </p>
+    </div>
+</div>
+
+<style>
+    .distribuidor {
+        margin-bottom: 20px;
+    }
+
+    .distribuidor h2 {
+        color: #007bff;
+    }
+
+    .distribuidor p {
+        font-size: 1.1em;
+    }
+</style>
+
